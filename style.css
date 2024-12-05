@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', cursive;
+    background: #0aaa8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #338ef7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Bungee', cursive;
+}
+
+button:hover {
+    background-color: #3d00e4;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+select {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-family: 'Bungee', cursive;
+    box-shadow: none;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#output1, #output2, #output3 {
+    color: white;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.output-container {
+    height: 50px; /* Set a fixed height large enough to hold all outputs */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Optional: adds spacing between outputs */
+    align-items: center; /* Centers outputs horizontally */
+    margin-top: 10px;
+}
+
+.bomb{
+    color:#ffffff;
+    font-size:1.1em;
+    margin-bottom:10px;
+    font-family: 'Bungee', cursive;
+    background-color: #ffffff;
+}
+
